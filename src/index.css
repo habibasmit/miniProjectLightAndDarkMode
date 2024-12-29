@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background: #f6f6f6;
+  --foreground-color: #003cff;
+  --primary-text-color:#0a0a0a;
+  --secondary-text-color:#fcfafa;
+  --toggle-bg:#f0eb9d;
+  --toggle-fg:#ffd000;
+}
+
+
+[data-theme="dark"]{
+  --secondary-text-color:#0a0a0a;
+  --foreground-color: #003cff;
+  --primary-text-color:#fcfafa;
+  --background-color: #080808;
+  --toggle-bg:#283453;
+  --toggle-fg:#00a6ff;
+}
